@@ -1,0 +1,22 @@
+.body {
+  max-width: 600px;
+  margin: 0 auto!important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { /* iPhone 6 and 6+ */
+    .email-container {
+        min-width: 320px !important;
+    }
+}
+
+span[class=emailHideSPAN] {
+  display: none !important;
+}
+
+#new-gmail-hack {
+  display: block !important;
+}
+
+.main {
+  background: #fff;
+}
